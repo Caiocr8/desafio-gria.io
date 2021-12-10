@@ -1,0 +1,75 @@
+header {
+    width: 100%;
+    position: fixed;
+    text-align: center;
+    align-items: center;
+    z-index: 999;
+    background-image: linear-gradient(96.61deg, #920D65 0.44%, #D81C98 99.14%);   
+}
+
+.logo-gria {
+    font-weight: bolder;
+    color: white;
+}
+
+.header-gria {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+ul {
+    margin-top: 10px;
+    font-size: 14px;
+    font-family: "Roboto", "Helvetica", "Arial", "sans-serif";
+    line-height: 1.5;
+    letter-spacing: 0.00938em;
+    margin-left: 200px;
+    width: 350px;
+    font-weight: 500;
+    color: white;  
+    display: grid; 
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    align-items: center;
+}
+
+@media(max-width: 1000px){
+    ul {
+        margin-left: 0px;
+    }
+}
+
+@media(max-width: 500px){
+    ul {
+        padding-top: 10px;
+        display: block;  
+    }
+}
+
+button {
+    background-color: transparent;
+    border: transparent;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 0.02857em;
+  
+}
+
+
+
+
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+}
+
+li {
+    
+    padding-right: 5%;
+    padding-top: 1%;
+    display: flex; 
+}
